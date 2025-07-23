@@ -1,0 +1,72 @@
+[
+    {
+        "category": "Renkler",
+        "words": ["Kırmızı", "Mavi", "Sarı", "Yeşil"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Meyveler",
+        "words": ["Elma", "Armut", "Muz", "Çilek"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Ülkeler",
+        "words": ["Türkiye", "Almanya", "Fransa", "Japonya"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Hayvanlar",
+        "words": ["Kedi", "Köpek", "At", "Balık"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Araçlar",
+        "words": ["Araba", "Bisiklet", "Uçak", "Tren"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Yiyecekler",
+        "words": ["Pizza", "Hamburger", "Salata", "Dondurma"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Şehirler",
+        "words": ["İstanbul", "Ankara", "İzmir", "Bursa"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Bitkiler",
+        "words": ["Gül", "Lale", "Orkide", "Papatya"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Müzik Aletleri",
+        "words": ["Gitar", "Piyano", "Davul", "Flüt"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Duygular",
+        "words": ["Mutlu", "Üzgün", "Kızgın", "Heyecanlı"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Meslekler",
+        "words": ["Doktor", "Öğretmen", "Mühendis", "Avukat"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Oyunlar",
+        "words": ["Satranç", "Masa Tenisi", "Futbol", "Basketbol"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Teknoloji",
+        "words": ["Bilgisayar", "Telefon", "Tablet", "Kamera"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Sporlar",
+        "words": ["Futbol", "Basketbol", "Voleybol", "Tenis"],
+        "difficulty": "Kolay"
+    }
+]
