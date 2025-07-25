@@ -1,1 +1,10 @@
-* text eol=lf
+# Tüm metin dosyaları için eol=lf ayarı
+* text=auto eol=lf
+
+# PNG, JPG ve diğer binary dosyalar için özel ayar
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
