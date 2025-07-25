@@ -8,7 +8,7 @@ export default function Header() {
             /> */}
             <img
                 className="logo"
-                src="src\assets\ne-alaka.png"
+                src="src\assets\placeholder.png"
                 alt="Eşle-mi logo"
             />
             <h1>Ne Alaka?!</h1>
