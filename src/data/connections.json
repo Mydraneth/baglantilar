@@ -68,5 +68,15 @@
         "category": "Sporlar",
         "words": ["Futbol", "Basketbol", "Voleybol", "Tenis"],
         "difficulty": "Kolay"
+    },
+    {
+        "category": "Deniz Hayvanları",
+        "words": ["Balina", "Yengeç", "Ahtapot", "Deniz Kızı"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Doğa",
+        "words": ["Dağ", "Göl", "Orman", "Nehir"],
+        "difficulty": "Kolay"
     }
 ]
