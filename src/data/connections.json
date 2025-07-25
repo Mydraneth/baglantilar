@@ -68,5 +68,20 @@
         "category": "Sporlar",
         "words": ["Futbol", "Basketbol", "Voleybol", "Tenis"],
         "difficulty": "Kolay"
+    },
+    {
+        "category": "Deniz Hayvanları",
+        "words": ["Balina", "Yengeç", "Ahtapot", "Deniz Kızı"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Kıyafetler",
+        "words": ["Gömlek", "Pantolon", "Elbise", "Ceket"],
+        "difficulty": "Kolay"
+    },
+    {
+        "category": "Doğa Olayları",
+        "words": ["Fırtına", "Deprem", "Sel", "Volkan"],
+        "difficulty": "Kolay"
     }
 ]
