@@ -38,7 +38,7 @@ body {
     display: flex;
     margin: 5vh auto 0;
     flex-wrap: wrap;
-    width: 445px;
+    width: 525px;
     gap: 15px;
     padding: 10px;
 }
@@ -48,18 +48,110 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100%;
+    width: 120px;
+    height: 50px;
     padding: 10px;
+    border: none;
     border-radius: 10px;
     background-color: #efefe6;
     color: #000000;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.2s ease, color 0.2s ease;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .word.selected {
     background-color: #5a594e;
     color: #ffffff;
 }
+
+.word.wrong-guess {
+    background-color: #dc2626 !important;
+    color: #ffffff !important;
+    animation: shake 0.6s ease-in-out;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-5px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(5px);
+    }
+}
 /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    height: 35px;
+    width: 300px;
+}
+.buttons button {
+    background-color: #e0e0e0;
+    color: #242424;
+    border: none;
+    width: 115px;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.buttons button:hover {
+    background-color: #d0d0d0;
+    color: #000000;
+}
+
+.correct-categories {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.correct-category {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ace99a;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.correct-category h3 {
+    margin: 0 0 10px 0;
+    color: #1f1f1f;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.category-words {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.correct-word {
+    background-color: #efefe6;
+    color: #000000;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
