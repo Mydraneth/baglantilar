@@ -8,8 +8,8 @@ export default function Header() {
             /> */}
             <img
                 className="logo"
-                src="src\assets\placeholder.png"
-                alt="Eşle-mi logo"
+                src="src\assets\ne-alaka.png"
+                alt="Ne Alaka?! logo"
             />
             <h1>Ne Alaka?!</h1>
             {/* <h1>Eşle-ME!</h1> */}
